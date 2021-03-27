@@ -30,7 +30,12 @@ I started by locating the I/O configuration of the chip by tracing the tracks on
 * P2.0 - C2 Debug data
 * C2CK - C2 Debug clock
 
+<img src="/media/TX16S_Breakout_top.jpg" alt="Top side of the PCB" width="800"/>
+<img src="/media/TX16S_Breakout_bottom.jpg" alt="Bottom side of the PCB" width="800"/>
+
 I used [SiLabs Configuration Wizard 2](https://www.silabs.com/documents/login/software/ConfigAndConfig2Install.exe) to generate the initial settings. The coding I carried out in [SiLabs Simplicity Studio v4](https://www.silabs.com/developers/simplicity-studio), using the [Keil V51 v9.60 C-compiler](https://www.keil.com/c51/c51.asp).
+
+<img src="/media/TX16S_6-pos_debug.jpg" alt="Debug setup" width="800"/>
 
 For own compiling, you only need to fetch and import into Simplicity Studio v4 the file *TX16S-6POS.sls* (use menu File -> Import). It includes all necessary files for setting up the project for building and debugging.
 
